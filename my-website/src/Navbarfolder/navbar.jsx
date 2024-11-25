@@ -11,7 +11,7 @@ const Navbar=()=>{
                 <li>About Me</li>
                 <li>Skills</li>
                 <li>Experience</li>
-                <li>Contact</li>
+                <li>Contact Me</li>
 
             </ul>
             <div className='nav-connect'>Let's Connect
