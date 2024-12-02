@@ -43,7 +43,7 @@ const Skills_Data=[
 const Skills=()=>{
     return(
         <>
-        <div className="my-skills">
+        <div id='skills' className="my-skills">
             <div className="my-skills-title">
                 <h1><span>Skills</span></h1>     
             </div>

@@ -5,11 +5,41 @@ import { CgMail } from "react-icons/cg";
 import { TbPhoneCall } from "react-icons/tb";
 import { ImLocation } from "react-icons/im";
 import { TbBrandLeetcode } from "react-icons/tb";
+import { BsEmojiSmile } from "react-icons/bs";
 
 const Contact=()=>{
+
+    const [result, setResult] = React.useState("");
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key", "94b30170-42c9-4dae-9edc-4565e0e83680");
+    
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData
+        });
+    
+        const data = await response.json();
+    
+        if (data.success) {
+          setResult("Form Submitted Successfully");
+          event.target.reset();
+          alert("Form Submitted Successfully!")
+        } else {
+          console.log("Error", data);
+          setResult(data.message);
+        }
+
+
+      };
+     
+    
     return(
         <>
-        <div className="my-contact">
+        <div id='contact' className="my-contact">
             <div className="my-contact-title">
                 <h1><span>Contact Me</span></h1>
                 </div>
@@ -35,7 +65,7 @@ const Contact=()=>{
                     </div>
 
                      </div>
-                     <form className="my-contact-right">
+                     <form onSubmit={onSubmit} className="my-contact-right">
                         <label htmlFor=" "><span>Your Name</span></label>
                         <input type="text" placeholder='Enter your Name' name='name'/>
                         <label htmlFor=" "><span>Email Id</span></label>

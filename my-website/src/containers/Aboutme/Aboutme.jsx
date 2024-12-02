@@ -4,7 +4,7 @@ import "./Aboutme.css";
 const About = () => {
     return (
         <>
-        <div className='Aboutme'>
+        <div id='about' className='Aboutme'>
             <div className='About-title'>
                 <h1><span>About Me</span></h1>
             </div>
@@ -13,7 +13,7 @@ const About = () => {
                 </div>
                 <div className="About-right">
                     <div className="About-para">
-                        <p>I am a passionate Computer Science graduate with experience in Software development. I am proficient in deploying
+                        <p>I am a passionate Computer Science graduate with 4 years of experience in Software Development. I am proficient in deploying
                             AWS solutions, managing large datasets, and creating robust APIs. Skilled in agile methodologies and automation,
                             committed to continuous learning and innovation. Proven ability to deliver high-quality, scalable software solutions.</p>
                         <p> Currently, at Virufy, I enhance CI/CD pipelines and logging systems using AWS Lambda, achieving a 20% efficiency boost. 

@@ -4,6 +4,9 @@ import About from "./containers/Aboutme/Aboutme.jsx";
 import Skills from "./containers/Skills/Skills.jsx";
 import Experience from "./containers/Experience/MyExperience.jsx";
 import Contact from "./containers/Contact/Contact.jsx";
+//import Footer from "./containers/footer/Footer.jsx";
+import Education from "./containers/Education/Education.jsx";
+
 //import Particles from "@tsparticles/react";
 //import {loadFull} from "tsparticles";
 //import Particlesform from "./containers/utils/Particles.js";
@@ -16,6 +19,7 @@ function App() {
       <About/>
       <Skills/>
       <Experience/>
+      <Education/>
       <Contact/>
     </div>
   
