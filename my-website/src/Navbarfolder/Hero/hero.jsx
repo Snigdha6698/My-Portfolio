@@ -1,5 +1,6 @@
 import React from 'react';
 import './hero.css';
+//import Resume from './Snigdha - Cloud Engineer-2.docx"'
 
 const handleDownload=()=>{
     const resumePath = "../public/Snigdha - Cloud Engineer-2.doc"; // Ensure the file is in the public folder

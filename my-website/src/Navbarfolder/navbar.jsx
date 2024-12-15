@@ -6,8 +6,10 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
+    
         <div className='Navbar'>
             <FaReact size={50} />
+            <div className='nav-menu-grid'>
             <ul className='nav-menu'>
                 <li><Link to="home" smooth={true} className="nav-link">
                     Home
@@ -27,6 +29,7 @@ const Navbar = () => {
                 </Link></li>
 
             </ul>
+            </div>
             <div className='nav-connect'>
               <Link to="contact" smooth={true} duration={500} className="nav-link">
                     Lets Connect

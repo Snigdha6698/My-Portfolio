@@ -8,6 +8,11 @@
      /* Creates 4 equal columns for the items */
    
 }
+.nav-menu-grid{
+    margin-left:-70%;
+   
+    
+}
 .nav-menu{
     position: fixed;
     margin-left: 300px;
@@ -32,7 +37,7 @@
     font-size:18px;
     cursor:pointer;
     transition:0.5s;
-    margin-left: 10px
+    margin-left:-10%
 }
 .nav-connect:hover{
     transform:scale(1.05);  
