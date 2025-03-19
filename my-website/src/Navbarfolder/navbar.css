@@ -1,0 +1,46 @@
+.Navbar{
+    
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:20px 170px;
+     /* Enables grid layout */
+     /* Creates 4 equal columns for the items */
+   
+}
+.nav-menu-grid{
+    margin-left:-70%;
+   
+    
+}
+.nav-menu{
+    position:relative;
+    margin-left: 300px;
+    display:flex;
+    align-items:center;
+    list-style:none;
+    gap:30px;
+    font-size:18px;
+    text-decoration:none;
+    box-shadow: 5 10px 10px rgba(199, 42, 42, 0.2);
+
+}
+.nav-menu:hover{ 
+    text-decoration: "underline";
+
+}
+
+.nav-connect{
+    
+    padding:10px 50px;
+    border-radius: 50px;
+    background:linear-gradient(267deg, orange 0.36%,purple 102.60%);
+    font-size:18px;
+    cursor:pointer;
+    transition:0.5s;
+    margin-left:-50%
+}
+.nav-connect:hover{
+    transform:scale(1.05);  
+
+}

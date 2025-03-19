@@ -1,0 +1,63 @@
+.experience-page{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:80px;
+    margin:80px 80px;
+}
+.experience-page-title{
+    position:relative;
+}
+.experience-page-title h1{
+    margin-top:-25%;
+    padding:0px 30px;
+    font-size:50px;
+    font-weight:500;
+}
+.experience-page-title h1 span{
+    background:linear-gradient(267deg, orange 0.36%,purple 102.60%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.experience-page-title :hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+  
+.experience-list {
+    margin-top:-10%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:2px;
+    padding:100px;
+    transition: 0.5s;
+    cursor:pointer;
+    box-shadow: none;
+  }
+  .vertical-timeline-element--work{
+    color:black;
+    size:30px;
+  }
+  .vertical-timeline-element-title{
+    background:linear-gradient(267deg, orange 0.36%,purple 102.60%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+  .vertical-timeline-element-subtitle{
+    background:linear-gradient(267deg, orange 0.36%,purple 102.60%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+  }
+  .experience-list p{
+    font-size:15px;
+    font-weight:400px;
+    color:azure;
+    line-height: 25px;
+  }
+ 

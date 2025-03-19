@@ -1,0 +1,74 @@
+.my-skills{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:80px;
+    margin:80px 170px;
+}
+.my-skills-title{
+    position:relative;
+}
+.my-skills-title h1{
+    margin-top:-40%;
+    padding:0px 30px;
+    font-size:50px;
+    font-weight:500;
+}
+.my-skills-title h1 span{
+    background:linear-gradient(267deg, orange 0.36%,purple 102.60%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.my-skills-title :hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+.skills-format{
+    margin-top:-5%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:20px;
+    padding:35px;
+    border-radius: 10px;
+    border:1px solid orange;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.my-skills-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+    margin-bottom:80px;
+}
+.my-skills-container :hover{
+    transform:scale(1.05);
+    transition:0.3s;
+    background:linear-gradient(40deg,#3f002a,rgb(34, 80, 136));
+    
+
+}
+.skills-format h3{
+    font-size: 20px;
+    font-weight:500;
+    background:linear-gradient(267deg,orange 0.36%,purple 102.60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.skills-format p{
+    color:azure;
+    font-size:15px;
+    font-weight:400;
+    line-height: 40px;
+    max-width: 300px;
+}
+.skills-readmore{
+    display:flex;
+    gap:15px;
+    align-items: center;
+    margin-top:20px;
+}
