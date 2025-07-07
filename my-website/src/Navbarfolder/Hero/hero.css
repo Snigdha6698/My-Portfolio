@@ -1,6 +1,6 @@
 .hero-img{
     background-image: url(
-        "C:\Users\srisn\My-Portfolio\my-website\src\assets\image1.jpeg"
+        "../../assets/image1.jpeg"
           );
           margin-top:2%;
       height: 550px;

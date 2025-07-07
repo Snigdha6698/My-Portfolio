@@ -52,12 +52,12 @@ const Expe_Data = [
     },
     {
         id: 5,
-        title: "Software Developer Intern",
-        company: "Single source Infotech ",
-        duration: "May 2018 - April 2019",
+        title: "Software Engineer Intern",
+        company: "BSNL",
+        duration: "Dec 2018 - May 2019",
         description: [
-            "Developed python automation using REST API for the mail processing based on content.",
-            "Implementation of highly responsive and interactive UIs using ReactJS, enhancing user experience by leveraging deep knowledge of DOM and Virtual DOM operations."
+            "Assisted configuration and management of WAN and VPN infrastructure for secure, high-performance connectivity.",
+            "Developed and Documented Python scripts using the Logging module to monitor network performance."
         ],
         icon: <FaBriefcase />
     }

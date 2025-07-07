@@ -36,7 +36,7 @@
 }
 .About-left-img{
     background-image: url(
-        "C:\Users\srisn\My-Portfolio\my-website\src\assets\image1.jpeg"
+        "../../assets/image1.jpeg"
           );
           margin-top:5%;
       height:500px;

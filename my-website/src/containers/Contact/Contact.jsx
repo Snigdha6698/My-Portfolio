@@ -49,18 +49,18 @@ const Contact=()=>{
                     <p>I'm currenlty available to take on new roles related to Python development with AWS cloud Implementation and frontend development.</p>
                     <div className="my-contact-detail-list">
                     <div className="my-contact-detail">
-                        <TbPhoneCall size={25}/> <p>+1 (972) 626-2596</p>
+                        <TbPhoneCall size={25}/> <p>+1 (940) 268-5625</p>
                     </div>
                     <div className="my-contact-detail">
-                        <ImLocation size={25}/><p>Ellicott City, MD-21043</p>
+                        <ImLocation size={25}/><p>Mckinney,Tx-75070</p>
                     </div>
                     <div className="my-contact-detail">
-                        <CgMail size={25}/><p>srisnigdha06@gmail.com</p>
+                        <CgMail size={25}/><p>snigdha.cloud22@gmail.com</p>
                     </div>
                     <div className="my-contact-detail">
-                    <FaLinkedin onClick={() => window.open("https://www.linkedin.com/in/sri-snigdha-kotharu-63931b299/")} size={25}/>
+                    <FaLinkedin onClick={() => window.open("https://www.linkedin.com/in/sri-kotharu-63931b299/")} size={25}/>
                     <FaGithub  onClick={() => window.open("https://github.com/Snigdha6698/My-Portfolio.git")} size={25}/>
-                    <TbBrandLeetcode  onClick={() => window.open("https://leetcode.com/u/Snigdha_66/")} size={25}/>
+                    <TbBrandLeetcode  onClick={() => window.open("https://leetcode.com/u/Sri_66/")} size={25}/>
                     </div>
                     </div>
 

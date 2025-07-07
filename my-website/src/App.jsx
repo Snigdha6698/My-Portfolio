@@ -6,6 +6,8 @@ import Experience from "./containers/Experience/MyExperience.jsx";
 import Contact from "./containers/Contact/Contact.jsx";
 //import Footer from "./containers/footer/Footer.jsx";
 import Education from "./containers/Education/Education.jsx";
+import VisitorCount from "./VisitorCounter.jsx";
+
 
 //import Particles from "@tsparticles/react";
 //import {loadFull} from "tsparticles";
@@ -21,6 +23,7 @@ function App() {
       <Experience/>
       <Education/>
       <Contact/>
+      <VisitorCount/>
     </div>
   
   );
